@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OutPatient</title>
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+		<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<script src="javascript/functions.js" type="text/javascript"></script>
+		<link rel="apple-touch-icon" href="homescreen.png"/>
+		<link href="startup.png" rel="apple-touch-startup-image" />
+	</head>
+	
+	<body>
+		<div id="topbar">
+			<div id="title">Anaesthetic Recovery Quality Indicator</div>
+		</div>
+
+		
+		<form action="#" method="post">
+			
+			<div id="content">
+			
+			<span class="graytitle">What was the Patient's temperature on admission to recovery?</span>
+			<ul class="pageitem">
+				<li class="select">
+				<select name="select a score">
+				<option value="1">Select a temperature range</option>
+				<option value="3">20 - 22</option>
+				<option value="2">23 - 25</option>
+				<option value="3">26 - 28</option>
+				<option value="3">29 - 31</option>
+				<option value="3">32 - 35</option>
+				</select>
+				<span class="arrow"></ span>
+				</li>
+			</ul>
+			
+			<span class="graytitle">What was the Patient's temperature on discharge?</span>
+			<ul class="pageitem">
+				<li class="select">
+				<select name="select a score">
+				<option value="1">Select a temperature range</option>
+				<option value="3">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="3">4</option>
+				<option value="3">5</option>
+				</select>
+				<span class="arrow"></ span>
+				</li>
+			</ul>
+			
+			<span class="graytitle">Did the Patient have an unplanned stay in the post anaesthesia recovery room for longer than 2 hours?</span>
+				<ul class="pageitem">
+					<li class="radiobutton">
+						<span class="name">Yes</span>
+						<input name="gender" type="radio" value="Y" />
+					</li>
+					<li class="radiobutton">
+						<span class="name">No</span>
+						<input name="gender" type="radio" value="N" />
+					</li>
+				</ul>
+			<ul class="pageitem">
+				
+				<li class="store">
+					<a class="noeffect" href="#">
+					<span class="name">Next</span>
+					<span class="arrow"></span</a>
+				</li>
+			</ul>
+		
+			</div>
+			
+			<div id="footer">
+				<a href="#">East Kent Hospital University Foundation Trust</a>
+			</div>
+		</form>
+		
+	</body>
+	
+</html>
